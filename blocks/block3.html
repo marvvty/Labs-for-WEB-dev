@@ -12,17 +12,15 @@
         display: flex;
         flex-direction: column;
         height: 100vh;
-        padding-left: 40vh;
-        padding-right: 40vh;
       }
       .header,
       .footer {
         background-color: blue;
-        height: 10vh;
+        height: 8vh;
         color: white;
+        text-align: center;
         border-style: solid;
         border-color: black;
-        text-align: center;
       }
       .main-content {
         display: flex;
@@ -34,7 +32,7 @@
         flex: 1;
       }
       .sidebar {
-        width: 15vh;
+        width: 18vh;
         text-align: center;
         background-color: yellow;
         border-style: solid;
@@ -45,7 +43,6 @@
       .extra-content {
         background-color: yellow;
         padding: 10px;
-        height: 8vh;
         text-align: center;
         border-style: solid;
         border-color: black;
@@ -57,7 +54,6 @@
         flex: 1;
         text-align: justify;
         vertical-align: top;
-        border-right: solid;
       }
       .header:hover,
       .footer:hover {
@@ -94,9 +90,7 @@
     <div class="flex-container">
       <div class="header">1</div>
       <div class="main-content">
-        <div class="sidebar">2</div>
-        <div class="extra-conteiner">
-          <div class="extra-content">5</div>
+        <div class="sidebar">5</div>
           <div class="content">
             <h1>Java (wiki)</h1>
             <p>
@@ -118,9 +112,10 @@
               <li>Python is ????</li>
             </ul>
           </div>
+          <div class="sidebar">5</div>
         </div>
+        <div class="footer">3</div>
       </div>
-      <div class="footer">3</div>
     </div>
   </body>
 </html>
