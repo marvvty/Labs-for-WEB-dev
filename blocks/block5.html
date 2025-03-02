@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+    rel="stylesheet"
+  />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .flex-container {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        margin-left: 50vh;
+        margin-right:50vh;
+      }
+      .header,
+      .footer {
+        background-color: blue;
+        height: 8vh;
+        color: white;
+        text-align: center;
+        border-style: solid;
+        border-color: black;
+        font-family: "Press Start 2P", cursive;
+      }
+      .main-content {
+        display: flex;
+        flex: 1;
+      }
+      .extra-conteiner {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+      }
+      .sidebar {
+        width: 18vh;
+        text-align: center;
+        background-color: yellow;
+        border-style: solid;
+        border-color: black;
+        border-top: none;
+        border-bottom: none;
+        font-family: "Press Start 2P", cursive;
+        padding-top:300px
+      }
+      .extra-content {
+        background-color: yellow;
+        padding: 10px;
+        text-align: center;
+        border-style: solid;
+        border-color: black;
+        border-top: none;
+        border-left: none;
+      }
+      .content {
+        background-color: white;
+        flex: 1;
+        text-align: justify;
+        vertical-align: top;
+      }
+      .header:hover,
+      .footer:hover {
+        background-color: darkblue;
+      }
+      .sidebar:hover {
+        background-color: rgb(190, 190, 14);
+      }
+      .content:hover {
+        background-color: lightgrey;
+      }
+      .extra-content:hover {
+        background-color: rgb(136, 136, 11);
+      }
+      h1 {
+        text-align: center;
+      }
+      p {
+        font-size: 18px;
+        padding-left: 2vh;
+        padding-right: 2vh;
+      }
+      ul {
+        text-align: left;
+        list-style-type: disc;
+        padding-left: 20px;
+      }
+      li {
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="header">1</div>
+      <div class="main-content">
+        <div class="sidebar">5</div>
+          <div class="content">
+            <h1>Java (wiki)</h1>
+            <p>
+              Java is a high-level, general-purpose, memory-safe,
+              object-oriented programming language. It is intended to let
+              programmers write once, run anywhere (WORA),[16] meaning that
+              compiled Java code can run on all platforms that support Java
+              without the need to recompile.[17] Java applications are typically
+              compiled to bytecode that can run on any Java virtual machine
+              (JVM) regardless of the underlying computer architecture. The
+              syntax of Java is similar to C and C++, but has fewer low-level
+              facilities than either of them. The Java runtime provides dynamic
+              capabilities (such as reflection and runtime code modification)
+              that are typically not available in traditional compiled
+              languages.
+            </p>
+            <ul>
+              <li>Java</li>
+              <li>Python is ????</li>
+            </ul>
+          </div>
+          <div class="sidebar">2</div>
+        </div>
+        <div class="footer">3</div>
+      </div>
+    </div>
+  </body>
+</html>
