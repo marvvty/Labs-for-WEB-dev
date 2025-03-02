@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .flex-container {
+        display: flex;
+        flex-direction: column;
+        border: solid;
+        background-color: white;
+        min-height: 100vh;
+        min-width: 100vh;
+        margin-left: 50vh;
+        margin-right: 50vh;
+      }
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: gold;
+        padding: 10px;
+        height: 60px;
+        position: relative;
+        font-size: 22px;
+        font-family: "Press Start 2P", cursive;
+        border-bottom: solid;
+      }
+      .footer {
+        background-color: yellow;
+        height: 8vh;
+        text-align: left;
+        padding-left: 50px;
+        padding-top: 10px;
+        border-top: solid;
+        font-family: "Press Start 2P", cursive;
+      }
+      .main-content {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        padding: 15px;
+      }
+      .extra-conteiner {
+        display: flex;
+        flex: 1;
+        flex-direction: c;
+      }
+      .sidebar {
+        background-color: blue;
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-family: "Press Start 2P", cursive;
+        border-right: solid;
+      }
+      .sidebar-new {
+        background-color: blue;
+        width: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Press Start 2P", cursive;
+        font-size: 20px;
+        border: solid;
+      }
+      .extra-content {
+        background-color: yellow;
+        text-align: center;
+        border-style: solid;
+        border-top: none;
+        border-left: none;
+        font-family: "Press Start 2P", cursive;
+      }
+      .content {
+        background-color: white;
+        flex: 1;
+        border: solid;
+        display: flex;
+        text-align: justify;
+        font-size: 18px;
+        flex-direction: column;
+        padding: 10px;
+      }
+      .rofl {
+        position: absolute;
+        top: 25px;
+        left: 500px;
+        width: 30vh;
+        height: 4vh;
+        background-color: white;
+        border-style: solid;
+      }
+      .for-something {
+        display: flex;
+      }
+      .red-block {
+        background-color: red;
+        height: 50px;
+        width: 100%;
+        margin-bottom: 20px;
+        border: solid;
+      }
+      .conteiner {
+        display: flex;
+        flex: 1;
+      }
+      .main-main-content {
+        display: flex;
+        flex-grow: 1;
+        align-items: stretch;
+        gap: 15px;
+      }
+      .header:hover,
+      .footer:hover {
+        background-color: darkgoldenrod;
+      }
+      .sidebar:hover,
+      .sidebar-new:hover {
+        background-color: darkblue;
+      }
+      .content:hover {
+        background-color: lightgrey;
+      }
+      .red-block:hover {
+        background-color: rgb(131, 19, 19);
+      }
+      h1 {
+        text-align: center;
+      }
+      p {
+        font-size: 18px;
+        padding-left: 2vh;
+        padding-right: 2vh;
+      }
+      ul {
+        text-align: left;
+        list-style-type: disc;
+        padding-left: 20px;
+      }
+      li {
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="header">1</div>
+      <div class="conteiner">
+        <div class="sidebar">2</div>
+        <div class="main-content">
+          <div class="red-block"></div>
+          <div class="main-main-content">
+            <div class="content">
+              <h1>Java (wiki)</h1>
+              <p>
+                Java is a high-level, general-purpose, memory-safe,
+                object-oriented programming language. It is intended to let
+                programmers write once, run anywhere (WORA),[16] meaning that
+                compiled Java code can run on all platforms that support Java
+                without the need to recompile.[17] Java applications are
+                typically compiled to bytecode that can run on any Java virtual
+                machine (JVM) regardless of the underlying computer
+                architecture. The syntax of Java is similar to C and C++, but
+                has fewer low-level facilities than either of them. The Java
+                runtime provides dynamic capabilities (such as reflection and
+                runtime code modification) that are typically not available in
+                traditional compiled languages.
+              </p>
+              <ul>
+                <li>btw java better</li>
+                <li>php....</li>
+              </ul>
+            </div>
+            <div class="sidebar-new">4</div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">5</div>
+    </div>
+    <div class="rofl"></div>
+  </body>
+</html>
